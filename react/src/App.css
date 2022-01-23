@@ -1,0 +1,60 @@
+body{
+    background-color: #282c34;
+    color: white;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+button {
+    display: inline-block;
+    background: #1976d2;
+    color: white;
+    border: 1px solid #e0e3e9;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+  }
+
+.form-control{ padding: 10px; border: 1px solid #ccc; width: 100%;
+    display: block; margin: 5px 0; box-sizing: border-box;}
+
+.form-control-profit{ 
+    width: 100%;
+    margin: 5px 0; box-sizing: border-box; 
+    font-size: 40px;
+    color: lightskyblue;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 100px 5px;
+} 
+
+.error {
+    color: red;
+} 
+
+.errorField {
+    color: red;
+    font-size: 12px;
+} 
+
